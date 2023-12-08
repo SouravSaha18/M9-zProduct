@@ -236,3 +236,45 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+@media only screen and (max-width:688px) {
+
+    .info h1 {
+        margin-left: -10px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .nav-head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .final,
+    .front {
+        flex-direction: column-reverse;
+    }
+
+    button {
+        margin-bottom: 20px;
+    }
+
+    .f-info {
+        margin-top: -30px;
+        text-align: center;
+    }
+
+    .foot {
+        margin-right: 850px;
+    }
+
+}
