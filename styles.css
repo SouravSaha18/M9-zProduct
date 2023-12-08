@@ -136,7 +136,7 @@ footer {
 
 .p-details {
     color: var(--text-gray-900, #18191F);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 40px;
 }
@@ -173,6 +173,13 @@ footer {
 .fa-star.filled,
 .fa-star-half-stroke.filled {
     color: #FFC014;
+}
+
+.see {
+    color: #E02C6D;
+    text-align: right;
+    font-size: 1.15em;
+    font-weight: 700;
 }
 
 
